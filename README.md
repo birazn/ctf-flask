@@ -1,6 +1,6 @@
 # CTF Flask
 
-> **Aviso:** este repositório é **apenas para fins educativos**. Não use as técnicas aqui descritas para invadir, explorar ou comprometer sistemas sem autorização explícita. Este repositório é um *fork* do projeto [`birazn/ctf-flask`](https://github.com/birazn/ctf-flask) e contém 4 desafios intencionais para prática de segurança web.
+> **Aviso:** este repositório é **apenas para fins educativos**. Não use as técnicas aqui descritas para invadir, explorar ou comprometer sistemas sem autorização explícita. Este repositório contém 4 desafios intencionais para prática de segurança web.
 
 ## Visão geral
 
@@ -19,7 +19,7 @@ O projeto é uma pequena aplicação Flask com **4 desafios** (Fase 1 a Fase 4) 
 1. Clonar o repositório:
 
 ```bash
-git clone https://github.com/gustavogordoni/ctf-flask.git
+git clone https://github.com/birazn/ctf-flask.git
 cd ctf-flask
 ```
 
