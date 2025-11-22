@@ -12,8 +12,10 @@
 </div>
 
 <div class="flag-box">
-    <h3>📊 Seu Progresso:</h3>
-    <p><strong>Fase Atual:</strong> {{ current_phase }}/4</p>
+    <h3>📊 Seu Progresso:</h3>    
+    {% if completed_phases|length < 4 %}
+        <p><strong>Fase Atual:</strong> {{ current_phase }}/4</p>
+    {% endif %}
     <p><strong>Fases Completadas:</strong> {{ completed_phases|length }}/4</p>
     {% if completed_phases %}
         <p><strong>Fases concluídas:</strong> {{ completed_phases|join(', ') }}</p>
